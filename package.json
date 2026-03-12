@@ -1,0 +1,35 @@
+{
+  "name": "confer-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "confer": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@stablelib/chacha20poly1305": "^1.0.1",
+    "@stablelib/curve25519": "^1.0.3",
+    "@stablelib/hkdf": "^1.0.1",
+    "@stablelib/sha256": "^1.0.1",
+    "@stablelib/sha512": "^1.0.1",
+    "blessed": "^0.1.81",
+    "commander": "^12.1.0",
+    "hi-base32": "^0.5.1",
+    "ink": "^5.0.1",
+    "protobufjs": "^7.4.0",
+    "react": "^18.3.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
